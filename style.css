@@ -1,7 +1,14 @@
-.header {
+.wrapper-head {
 	background-image:url(image/top.jpg);
 	background-size:100%;
 	background-repeat:no-repeat;
+}
+
+.header {
+	background-color: green;
+	position:fixed;
+	width:100%;
+	z-index:1;
 }
 
 .header-logo {
@@ -22,6 +29,8 @@
 	font-family: 'M PLUS Rounded 1c', sans-serif;
 	text-align: right;
 	padding-right: 50px;
+	padding-top:270px;
+	padding-bottom:150px;
 }
 
 .copy-logo {
