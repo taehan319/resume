@@ -1,6 +1,27 @@
+.header {
+	background-image:url(image/top.jpg);
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+
+.header-logo {
+	font-size: 25px;
+	float:left;
+	padding:15px 35px;
+}
+
+.header-list li{
+	list-style: none;
+	font-size: 20px;
+	float:right;
+	padding:20px 20px 20px 20px;
+}
+
 .copy {
-	font-size: 45px;
+	font-size: 60px;
 	font-family: 'M PLUS Rounded 1c', sans-serif;
+	text-align: right;
+	padding-right: 50px;
 }
 
 .copy-logo {
